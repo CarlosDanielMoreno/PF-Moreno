@@ -86,7 +86,6 @@ list-style: none;
 }
 
 .buscardor form{
-	background: rgb(122, 10, 10);
 	border-radius: 25px;
 	position: relative;
 }
@@ -99,17 +98,7 @@ input{
 	padding: 8px 40px 8px 20px;
 	border: none;
 }
-button{
-position: absolute;
-right: 20px;
-width:40px;
-top: 2%;
-border-radius: 50%;
-cursor: pointer;
-border: none;
-background: none;
 
-}
 .buscador{
 	display: none;
 }
@@ -179,13 +168,6 @@ list-style: none;
 }
 
 
-.searchbar{
-	border-radius: 20px;
-	justify-content: center;
-
-	transform: tras(-50%, -50%);
-}
-
 .top-bar-1 ul {
 text-decoration: none;
 list-style: none;
@@ -199,6 +181,10 @@ font-size: 20px;
 }
 .top-bar-1 a{
 	color: #000000;
+}
+.movil-1{
+	display: flex;
+	margin-left: 5px;
 }
 
 
@@ -275,6 +261,8 @@ font-family:'Open Sans' ;
 }
 
 /*novel-list*/
+
+
 .main-top{
 
 	width: 100%;
@@ -294,6 +282,8 @@ font-family:'Open Sans' ;
 	border-radius: 20px;
 
 }
+
+
 .genres{
 	display: flex;
 	margin: 10px;
@@ -376,10 +366,7 @@ font-family:'Open Sans' ;
 	margin-left: 20px;
  }
 
-  .estado{
-	
-	
- }
+ 
 
  .gene{
     background: #444;
@@ -388,12 +375,16 @@ font-family:'Open Sans' ;
     padding: 3px 6px;
     white-space: nowrap;
     margin-right: 6px;
-    user-select: none;
+    
  }
  .gene a{
 	color: #fff;
 	text-decoration: none;
  }
+.gene a:hover{
+	color: #000000;
+	
+}
 
  .list-titulo{
 	font-size: 20px;
@@ -405,6 +396,10 @@ font-family:'Open Sans' ;
 	background-image: url(../ico/status.png);
  }
 
+ .die a{
+	text-decoration: none;
+	color: #000000;
+ }
 
 /*login / register*/
 
@@ -489,11 +484,11 @@ list-style: none;
 }
 
 footer a{
-	text-decoration: none;
-	color: #000000;
+	
+	color: #1b0fbe;
 }
 footer a:hover{
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 @media (max-width: 1024px ) {
@@ -597,15 +592,14 @@ max-width: 900px;
 
 	
 	.movil{
-		display: initial;
+		
+		width: 100%;
+		max-width: 600px;
 		display: flex;
-		
-		
+		justify-content: space-between;
+			
 	}
-	.movil-1 {
-		float: left;
-		
-	}
+	
 
 
 }
@@ -687,18 +681,13 @@ max-width: 900px;
 		margin: auto;
 	}
 
-}
-
-@media (max-width: 425px ){
-
 .add a {
 	display: none;
 }
-.die span{
+
+.die a{
 	display: none;
 }
-.card p {
-	display: flex;
-}
+
 
 }
