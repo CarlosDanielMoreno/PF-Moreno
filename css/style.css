@@ -42,7 +42,8 @@ header .menu, header .menu-1 {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: auto; }
   header .menu a, header .menu-1 a {
     color: #fff;
     text-decoration: none;
@@ -220,7 +221,8 @@ main .us {
     padding: 20px;
     border-radius: 12px;
     background: #fff;
-    margin: auto; }
+    margin: auto;
+    margin-top: 50px; }
     .main-register .register h1 {
       font-size: 30px;
       margin-bottom: 25px; }
@@ -284,10 +286,7 @@ main .us {
 
 @media (max-width: 650px) {
   header .checkbtn {
-    width: 100%;
-    max-width: 700px;
-    justify-content: end;
-    display: flex; }
+    display: block; }
   header .hiden {
     display: initial; }
   header .buscador-1 {
@@ -331,7 +330,9 @@ main .us {
   main {
     margin-top: 100px; }
   .main-register .register {
-    margin-top: 185px; } }
+    margin-top: 185px; }
+  .main-novel .buscador {
+    margin-top: 190px; } }
 
 @media (max-width: 425px) {
   .main-index .content {

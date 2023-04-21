@@ -4,11 +4,9 @@
     header{
        
         .checkbtn{
-           width: 100%;
-           max-width: 700px;
-           justify-content: end;
            
-            display: flex;
+            
+            display: block;
             
         }
         .hiden{
@@ -93,5 +91,9 @@
  
    }
 
-  
+  .main-novel{
+    .buscador{
+        margin-top: 190px;
+    }
+  }
 }
