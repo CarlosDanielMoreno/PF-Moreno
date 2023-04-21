@@ -2,7 +2,11 @@
 @media (max-width: 650px ){
    
     header{
-      
+       
+        .checkbtn{
+            display: block;
+            
+        }
         .hiden{
             display: initial;
         }
@@ -42,6 +46,11 @@
                 margin: 50px 0;
                 line-height: 30px;
             }
+        }
+    }
+    .main-index{
+        .titulo{
+            margin-top: 160px;
         }
     }
     #check:checked ~ ul {
