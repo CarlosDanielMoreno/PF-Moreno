@@ -211,25 +211,28 @@ main .us {
   main .us p {
     justify-content: center; }
 
-.main-register .register {
-  width: 80%;
-  max-width: 800px;
-  padding: 20px;
-  border-radius: 12px;
-  background: #fff;
-  margin: auto;
-  margin-top: 50px; }
-  .main-register .register h1 {
-    font-size: 30px;
-    margin-bottom: 25px; }
-  .main-register .register .form-group {
-    margin-bottom: 12px; }
-  .main-register .register form input[type="submit"] {
-    font-size: 20px;
-    margin-top: 15px; }
-  .main-register .register .color-1 {
-    background-color: #393D49;
-    color: #fff; }
+.main-register {
+  height: 100%;
+  max-height: 400px; }
+  .main-register .register {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    margin: auto;
+    margin-top: 185px; }
+    .main-register .register h1 {
+      font-size: 30px;
+      margin-bottom: 25px; }
+    .main-register .register .form-group {
+      margin-bottom: 12px; }
+    .main-register .register form input[type="submit"] {
+      font-size: 20px;
+      margin-top: 15px; }
+    .main-register .register .color-1 {
+      background-color: #393D49;
+      color: #fff; }
 
 .footer {
   width: 100%;
