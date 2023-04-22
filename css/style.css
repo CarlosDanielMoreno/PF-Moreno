@@ -146,7 +146,8 @@ main .content-2 {
     display: flex;
     margin: 10px; }
   .main-novel .main-top ul {
-    list-style: none; }
+    list-style: none;
+    flex-wrap: wrap; }
   .main-novel .main-top a {
     margin-left: 5px;
     text-decoration: none;
@@ -208,7 +209,8 @@ main .us {
   max-width: 800px;
   background-color: #fff;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  overflow: auto; }
   main .us p {
     justify-content: center; }
 
@@ -236,6 +238,7 @@ main .us {
       color: #fff; }
 
 .footer {
+  margin-top: 15px;
   width: 100%;
   padding: 20px;
   display: flex;
@@ -294,17 +297,22 @@ main .us {
   header .movil {
     display: flex;
     justify-content: space-between; }
-  .header-1 {
-    width: 100%;
-    position: fixed;
-    top: -20px; }
+  .header-1 .top-bar, .header-1 header .top-bar-1, header .header-1 .top-bar-1 {
+    display: none; }
+  header .menu-3 {
+    height: 70px; }
+  header .top-bar-1 {
+    display: none; }
+  header .WebNovel {
+    margin: auto; }
+    header .WebNovel p {
+      color: #fff; }
   header ul {
     position: fixed;
     width: 100%;
     height: 900px;
-    overflow: hidden;
     background: #2c3e50;
-    top: 160px;
+    top: 75px;
     left: -100%;
     text-align: center;
     transition: all .5s;
@@ -315,8 +323,6 @@ main .us {
       display: block;
       margin: 40px;
       line-height: 30px; }
-  .main-index .titulo {
-    margin-top: 160px; }
   #check:checked ~ ul {
     left: 0; }
   /*novel-list*/
@@ -325,8 +331,6 @@ main .us {
     max-width: 600px;
     display: flex;
     justify-content: space-between; }
-  .main-top ul {
-    flex-wrap: wrap; }
   main .us {
     padding: 0;
     padding-left: 5px; } }

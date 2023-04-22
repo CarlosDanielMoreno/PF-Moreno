@@ -27,20 +27,34 @@
         
     }
     .header-1{
-        width: 100%;
-        position: fixed;
-        top: -20px;
+        
+       .top-bar{
+        display: none;
+       }
     }
     header{
-      
+        
+        .menu-3{
+            height: 70px;
+        }
+        .top-bar-1{
+            display: none;
+        }
+        .WebNovel{
+           margin: auto;
+            p{
+                
+            color: #fff;
+            }
+        }
+    
         ul {
             
             position: fixed;
             width: 100%;
            height: 900px;
-           overflow: hidden;
             background: #2c3e50;
-            top: 160px;
+            top: 75px;
             left: -100%;
             text-align: center;
             transition: all .5s;
@@ -57,11 +71,8 @@
            
         }
     }
-    .main-index{
-        .titulo{
-            margin-top: 160px;
-        }
-    }
+   
+    
     #check:checked ~ ul {
         left:0;
         
@@ -75,11 +86,7 @@
 		display: flex;
 		justify-content: space-between;
     }
-    .main-top{
-        ul{
-		flex-wrap: wrap;
-        }
-	}
+   
 
 
    
